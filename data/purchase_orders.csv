@@ -1,0 +1,51 @@
+po_number,vendor,item,quantity_ordered,unit_price,order_date,status
+PO-2024-0001,Steelcase Inc.,Ergonomic Office Chair,20,485.00,2024-01-08,Fully Received
+PO-2024-0002,Dell Technologies,Latitude 5540 Laptop,15,1249.99,2024-01-10,Partially Received
+PO-2024-0003,Grainger Industrial,Industrial Safety Gloves (Box/100),50,38.50,2024-01-12,Fully Received
+PO-2024-0004,Sysco Corporation,Breakroom Coffee Supplies (Monthly),1,620.00,2024-01-15,Fully Received
+PO-2024-0005,Staples Business Advantage,Printer Paper A4 (Carton),200,42.75,2024-01-17,Pending Receipt
+PO-2024-0006,Cisco Systems,Catalyst 9200 Network Switch,4,3850.00,2024-01-20,Fully Received
+PO-2024-0007,3M Company,N95 Respirator Masks (Box/20),100,24.99,2024-01-22,Fully Received
+PO-2024-0008,Honeywell International,HVAC Thermostat Smart Controller,8,319.00,2024-01-25,Pending Receipt
+PO-2024-0009,W.W. Grainger,Power Extension Cord 25ft,30,18.40,2024-01-28,Fully Received
+PO-2024-0010,Adobe Systems,Creative Cloud Teams License (Annual),10,599.88,2024-02-01,Fully Received
+PO-2024-0011,Uline Shipping,Corrugated Shipping Boxes 18x12x8,500,1.85,2024-02-03,Partially Received
+PO-2024-0012,Quill Corporation,Sticky Notes Assorted Pack,80,5.99,2024-02-05,Fully Received
+PO-2024-0013,HP Inc.,LaserJet Pro MFP M479fdw,3,749.00,2024-02-07,Fully Received
+PO-2024-0014,Aramark Uniform Services,Staff Polo Shirts (Embroidered),40,28.50,2024-02-10,Pending Receipt
+PO-2024-0015,Fastenal Company,M8 Hex Bolt Stainless (Box/100),25,14.20,2024-02-12,Fully Received
+PO-2024-0016,Lenovo Group,ThinkPad X1 Carbon Gen 11,5,1899.00,2024-02-14,Fully Received
+PO-2024-0017,Brother Industries,HL-L8360CDW Color Laser Printer,2,449.99,2024-02-17,Fully Received
+PO-2024-0018,Office Depot,Ergonomic Keyboard Wrist Rest,60,19.99,2024-02-19,Fully Received
+PO-2024-0019,Amazon Business,USB-C Hub 7-in-1 (Anker),35,45.99,2024-02-21,Partially Received
+PO-2024-0020,FedEx Office,Marketing Brochure Print Run (1000),1,1150.00,2024-02-24,Pending Receipt
+PO-2024-0021,Cintas Corporation,First Aid Cabinet Restock Kit,12,89.00,2024-02-26,Fully Received
+PO-2024-0022,Anixter International,Cat6A Ethernet Cable 500ft,10,145.00,2024-02-28,Fully Received
+PO-2024-0023,Pitney Bowes,Postage Meter Ink Cartridge,6,78.50,2024-03-02,Fully Received
+PO-2024-0024,Shred-it Services,Document Shredding Service (Monthly),1,320.00,2024-03-04,Fully Received
+PO-2024-0025,Avery Dennison,Label Stock 4x6 Thermal (Roll/500),40,22.30,2024-03-06,Pending Receipt
+PO-2024-0026,Ingram Micro,WD My Cloud EX2 Ultra NAS,3,499.00,2024-03-08,Fully Received
+PO-2024-0027,Zebra Technologies,ZD421 Thermal Label Printer,2,895.00,2024-03-11,Fully Received
+PO-2024-0028,Legrand AV,C2G HDMI Cable 15ft (Pack/5),20,34.99,2024-03-13,Fully Received
+PO-2024-0029,Keurig Dr Pepper,K-Cup Pods Variety Pack (108ct),15,52.40,2024-03-15,Fully Received
+PO-2024-0030,Aramark Uniform Services,High-Vis Safety Vest Class 2,30,17.75,2024-03-17,Partially Received
+PO-2024-0031,Iron Mountain,Offsite Archive Box Storage (Annual),1,1875.00,2024-03-19,Fully Received
+PO-2024-0032,Cisco Systems,IP Phone CP-8841,12,495.00,2024-03-21,Pending Receipt
+PO-2024-0033,Grainger Industrial,Lockout/Tagout Station Kit,5,210.00,2024-03-23,Fully Received
+PO-2024-0034,Samsung Electronics,65" 4K UHD Conference Display,2,1199.00,2024-03-25,Fully Received
+PO-2024-0035,Steelcase Inc.,Flex Height-Adjustable Desk,10,1295.00,2024-03-28,Pending Receipt
+PO-2024-0036,Brenntag North America,Isopropyl Alcohol 99% (5-Gallon),20,68.40,2024-03-30,Fully Received
+PO-2024-0037,Zoom Video Communications,Zoom Rooms Annual License,1,1999.00,2024-04-01,Fully Received
+PO-2024-0038,Uline Shipping,Stretch Wrap Film 18"x1500ft (4pk),15,62.00,2024-04-03,Fully Received
+PO-2024-0039,Staples Business Advantage,Sharpie Permanent Markers (Box/12),50,9.45,2024-04-05,Fully Received
+PO-2024-0040,W.W. Grainger,Cordless Drill DeWalt DCD777,4,189.00,2024-04-07,Fully Received
+PO-2024-0041,Pitney Bowes,Mailroom Scale DS-750,1,425.00,2024-04-09,Pending Receipt
+PO-2024-0042,Sysco Corporation,Janitorial Supply Bundle (Monthly),1,742.00,2024-04-11,Fully Received
+PO-2024-0043,HP Inc.,HP 508X Toner Cartridge 4-Pack,8,429.00,2024-04-13,Fully Received
+PO-2024-0044,Logitech,Wireless Presenter R800,10,99.99,2024-04-15,Fully Received
+PO-2024-0045,Ergotron,LX Desk Monitor Arm,15,179.00,2024-04-17,Partially Received
+PO-2024-0046,Lexmark International,CX622ade Color Laser Printer,1,1349.00,2024-04-19,Fully Received
+PO-2024-0047,Avery Dennison,Name Badge Insert Refills (200pk),30,12.99,2024-04-21,Pending Receipt
+PO-2024-0048,Kensington,Security Laptop Cable Lock (Master),20,39.99,2024-04-23,Fully Received
+PO-2024-0049,Quill Corporation,Legal Size File Folders (Box/100),15,28.75,2024-04-25,Fully Received
+PO-2024-0050,Fellowes,Powershred 99Ci Cross-Cut Shredder,3,449.99,2024-04-28,Fully Received
