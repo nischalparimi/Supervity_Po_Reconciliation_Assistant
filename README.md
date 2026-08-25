@@ -20,7 +20,7 @@ A production-quality, chat-based **Purchase Order reconciliation tool** for ente
 │  FastAPI Backend                                │
 │  ┌──────────────────────────────────────────┐   │
 │  │  LangGraph Agent                         │   │
-│  │  User Question → LLM (GPT-4o) →         │   │
+│  │  User Question → LLM (Groq) →           │   │
 │  │  run_sql_query tool → SQLite execute →   │   │
 │  │  LLM formats answer                      │   │
 │  └──────────────────────────────────────────┘   │
@@ -39,13 +39,13 @@ A production-quality, chat-based **Purchase Order reconciliation tool** for ente
 ### Prerequisites
 - Python 3.11+
 - Node.js 18+
-- An OpenAI API key with access to `gpt-4o` (or `gpt-4-turbo`)
+- A Groq API key (free at [console.groq.com](https://console.groq.com))
 
 ### 1. Clone and configure environment
 
 ```bash
 cp .env.example .env
-# Edit .env and set OPENAI_API_KEY=sk-...
+# Edit .env and set GROQ_API_KEY=gsk_...
 ```
 
 ### 2. Backend
@@ -149,6 +149,8 @@ The CSVs were hand-crafted with deliberate anomalies for realistic reconciliatio
 4. **The reconciliation VIEW**: By defining a `reconciliation` view in SQLite, the agent can use a single clean abstraction that encapsulates the join, aggregation, and status derivation logic — reducing the surface area for SQL generation errors.
 
 **Trade-off accepted**: For a prototype with <10k rows, SQLite adds no meaningful latency. For true production scale (millions of rows), you'd replace SQLite with a real RDBMS and add connection pooling, but the agent layer remains unchanged.
+
+**LLM provider**: The agent was switched from OpenAI GPT-4o to **Groq** (`openai/gpt-oss-120b` via `langchain-groq` / `ChatGroq`) during development. Groq's free tier removes the billing barrier for local testing, and its hardware-accelerated inference delivers significantly lower latency on tool-calling loops — which matters when the agent may run the `run_sql_query` tool multiple times per question. The LangGraph agent interface is provider-agnostic, so swapping back to OpenAI (or any other LangChain-supported LLM) requires changing only two lines in `agent.py`.
 
 ---
 
